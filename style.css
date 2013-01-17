@@ -1,0 +1,163 @@
+/***************************************\
+ * style.css			               *
+\***************************************/
+body, html{
+	background: #9DC63F;
+	height: 100%;
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+.clear{
+	clear: both;
+}
+
+#library_search_main_container{
+	background: #E4FFC5;
+	border: 1px solid black;
+	height: 400px;
+	position: relative;
+	width: 400px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+}
+	#current_selection_label_container{
+		background: #E4FFC5;
+		border-bottom: 2px solid #CCC;
+		height: 40px;
+		margin-left: 5px;
+		position: relative;
+		width: 97%;
+	}
+		#current_selection_label{
+			background: #F2F2E6;
+			border: 1px solid #CCC;
+			height: 70%;
+			margin: 5px;
+			position: relative;
+			top: 4px;
+			-moz-border-radius: 8px;
+			-webkit-border-radius: 8px;
+			border-radius: 8px;
+		}
+			#current_selection_label_static{
+				float: left;
+				font-family: 'Lucida Sans Unicode', 'Lucinda Grande', sans-serif;
+				font-size: .7em;
+				margin-left: 20px;
+				margin-right: 10px;
+				margin-top: 8px;
+				position: relative;
+			}
+			#current_selection_label_dynamic_container{
+				float: left;
+				position: relative;
+			}
+				.current_selection_label_dynamic_scheme{
+					border-left: 2px solid black;
+					border-right: 2px solid black;
+					float: left;
+					font-family: 'Lucida Sans Unicode', 'Lucinda Grande', sans-serif;
+					font-size: .7em;
+					font-weight: bold;
+					margin-left: 10px;
+					margin-top: 8px;
+					padding-left: 10px;
+					padding-right: 10px;
+					position: relative;
+					-moz-border-radius: 5px;
+					-webkit-border-radius: 5px;
+					border-radius: 5px;
+					-moz-box-shadow: 0px 5px 10px #CCC inset;
+					-webkit-box-shadow: 0px 5px 10px #CCC inset;
+					box-shadow: 0px 5px 10px #CCC inset;
+				}
+				.current_selection_label_dynamic_space{
+					background: #E4FFC5;
+					float: left;
+					font-size: .8em;
+					font-weight: bold;
+					margin-left: 10px;
+					margin-top: 4px;
+					position: relative;
+					-moz-border-radius: 3px;
+					-webkit-border-radius: 3px;
+					border-radius: 3px;
+					-moz-box-shadow: 0px 5px 10px #9DC63F;
+					-webkit-box-shadow: 0px 5px 10px #9DC63F;
+					box-shadow: 0px 5px 10px #9DC63F;
+				}
+	#library_quick_search_container{
+		background: #E4FFC5;
+		border-bottom: 2px solid #CCC;
+		height: 345px;
+		margin-left: 10px;
+		position: relative;
+		widthL 97%;
+	}
+		#library_quick_search_scroll_area{
+			background: #F2F2E6;
+			border: 1px solid #CCC;
+			float: left;
+			height: 86%;
+			position: relative;
+			top: 3px;
+			width: 97%;
+			-moz-border-radius: 10px;
+			-webkit-border-radius: 10px;
+			border-radius: 10px;
+		}
+			.library_quick_search_select{
+				background: #CCC;
+				font-family: 'Lucida Sans Unicode', 'Lucinda Grande', sans-serif;
+				height: 95%;
+				margin: 10px;
+				position: relative;
+				width: 95%;
+			}
+			#library_quick_search_select_state{
+			}
+			#library_quick_search_select_county{
+			}
+			#library_quick_search_select_library{
+			}
+			.main_search_back_button{
+				background: #DDD;
+				border: 1px solid black;
+				cursor: pointer;
+				font-family: 'Lucinda Sans Unicode', 'Lucinda Grande', sans-serif;
+				font-size: 1.2em;
+				height: 27px;
+				margin: 5px 5px 5px 5%;
+				padding-top: 1px;
+				text-align: center;
+				width: 90%;
+				-moz-box-shadow: 0px 5px 10px #FCFCFC inset;
+				-webkit-box-shadow: 0px 5px 10px #FCFCFC inset;
+				box-shadow: 0px 5px 10px #FCFCFC inset;
+				-moz-border-radius: 15px;
+				-webkit-border-radius: 15px;
+				border-radius: 15px;
+			}
+			.main_search_back_button:hover{
+				-moz-box-shadow: 0px 5px 10px #CCC inset;
+				-webkit-box-shadow: 0px 5px 10px #CCC inset;
+				box-shadow: 0px 5px 10px #CCC inset;
+			}
+                #first_section_back_to_state_library{
+                    font-size: .9em !important;
+                    height: 26px !important;
+                    padding-top: 9px !important;
+                    position: relative !important;
+                    top: -5px !important;
+                    width: 135px !important;
+                    z-index: 9999 !important;
+                }
+                #first_section_back_library{
+                    left: 119px !important;
+                    position: relative !important;
+                    top: -44px !important;
+                    width: 61% !important;
+                    z-index: 9998 !important;
+                }

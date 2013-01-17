@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang='en'>
+	<head>
+		<meta charset='UTF-8' />
+		<title>Import Code</title>
+		<!-- CSS Imports -->
+		<link href='style.css' rel='stylesheet' type='text/css' />
+		<!-- JavaScript Imports -->
+		<script type='text/javascript' src='library_search.js'></script>
+		<script type='text/javascript' src='d3.v2.min.js'></script>
+		<script type='text/javascript' src='mootools.js'></script>
+	</head>
+	<body>
+		<div id='library_search_main_container'>
+			<div id='current_selection_label_container'>
+				<div id='current_selection_label'>
+					<div id='current_selection_label_static'>
+						Currently Selected:
+					</div>
+					<div id='current_selection_label_dynamic_container'>
+						<div class='current_selection_label_dynamic_scheme'>
+							None Selected
+						</div>
+					</div>
+					<div class='clear'></div>
+				</div>
+			</div> <!-- END current_selection_label_container -->
+			<div id='library_quick_search_container'>
+				<div id='library_quick_search_scroll_area'>
+					<select size='50' id='library_quick_search_select_state'
+						class='library_quick_search_select'>
+					</select>
+				</div>
+			</div>
+		</div>	
+		<script type='text/javascript'>
+			initialize_search('library.json');
+		</script>
+	</body>
+</html>
